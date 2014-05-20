@@ -1,0 +1,7 @@
+D:\Diego\libreria bluetooth wp8\Bluetooth\BluetoothTests\bin\Debug\BluetoothTests.dll
+D:\Diego\libreria bluetooth wp8\Bluetooth\BluetoothTests\bin\Debug\BluetoothTests.pdb
+D:\Diego\libreria bluetooth wp8\Bluetooth\BluetoothTests\bin\Debug\BluetoothManager.dll
+D:\Diego\libreria bluetooth wp8\Bluetooth\BluetoothTests\bin\Debug\BluetoothManager.pdb
+D:\Diego\libreria bluetooth wp8\Bluetooth\BluetoothTests\obj\Debug\BluetoothTests.csprojResolveAssemblyReference.cache
+D:\Diego\libreria bluetooth wp8\Bluetooth\BluetoothTests\obj\Debug\BluetoothTests.dll
+D:\Diego\libreria bluetooth wp8\Bluetooth\BluetoothTests\obj\Debug\BluetoothTests.pdb
