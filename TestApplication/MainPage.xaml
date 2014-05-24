@@ -25,8 +25,8 @@
 
             <TextBlock x:Name="txtblkSend" Text="Input" Foreground="White"></TextBlock>
             <TextBox></TextBox>
-
-            <Button x:Name="Send" Height="100" Content="Send"></Button>
+            <Button x:Name="Connect" Height="100" Content="Send" Click="Connect_Click"></Button>
+            <Button x:Name="Send" Height="100" Content="Send" Click="Send_Click"></Button>
         </StackPanel>
         <!-- NOTA SULLA LOCALIZZAZIONE:
             Per localizzare le stringhe visualizzate copiarne i valori in chiavi denominate in modo appropriato

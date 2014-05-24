@@ -5,7 +5,6 @@ using System.Text;
 using System.Threading.Tasks;
 using Windows.Networking.Proximity;
 using Windows.Networking.Sockets;
-using System.Linq;
 using Windows.Storage.Streams;
 using System.Runtime.InteropServices.WindowsRuntime;
 using System.Collections.ObjectModel;
@@ -14,44 +13,31 @@ using Microsoft.Phone.Tasks;
 
 namespace Bluetooth
 {
-    public class PairedDevice : BluetoothManager
+    public class PairedDevice  
     {
-        private static ObservableCollection<PeerInformation> _PairedDeviceList;
-        private PairedDevice() { }
+        protected static StreamSocket _Socket;
+        protected PairedDevice()
+        { }
 
-        public static ObservableCollection<PeerInformation> PairedDeviceList
+        protected static ObservableCollection<PairedDeviceInfo> _PairedDeviceList;
+       
+        public static ObservableCollection<PairedDeviceInfo> PairedDeviceList
         {
             get
             {
                 if (_PairedDeviceList == null)
                 {
-                    _PairedDeviceList = new ObservableCollection<PeerInformation>();
+                    _PairedDeviceList = new ObservableCollection<PairedDeviceInfo>();
                 }
                 return _PairedDeviceList;
             }
         }
 
-
-        private static StreamSocket _Socket;
-        //private Socket(){}
-
-        //public static StreamSocket GetSocket
-        //{
-        //    get
-        //    {
-        //        if (_Socket == null)
-        //        {
-        //            _Socket = new StreamSocket();
-        //        }
-        //        return _Socket;
-        //    }
-        //}
-
         /// <summary>
         /// Add device to list of paired Devides
         /// </summary>
         /// <param name="device"></param>
-        public static void Add(PeerInformation device)
+        private static void Add(PairedDeviceInfo device)
         {
             PairedDeviceList.Add(device);
         }
@@ -59,89 +45,69 @@ namespace Bluetooth
         /// <summary>
         /// Clean Paired Device List
         /// </summary>
-        public static void Clear()
+        private static void Clear()
         {
             PairedDeviceList.Clear();
         }
 
         #region Methods
 
-        /// <summary>
-        /// Show to window the bluethooth control to switch on bluetooth
-        /// </summary>
-        public override void ShowBluetoothControlPanel()
-        {
-            ConnectionSettingsTask connectionSettingTask = new ConnectionSettingsTask();
-            connectionSettingTask.ConnectionSettingsType = ConnectionSettingsType.Bluetooth;
-            connectionSettingTask.Show();
-        }
+     
 
+        
 
         /// <summary>
-        /// Connect a Peer with specific macAddress
+        /// Update paired device list
         /// </summary>
-        /// <param name="macaddress"></param>
         /// <returns></returns>
-        private async Task<bool> ConnectToDevice(string macaddress)
+        public static async void RefreshList()
         {
-            PeerFinder.AlternateIdentities["Bluetooth:Paired"] = "";
-            //cerca tutti i dispositivi pairati
-            var devices = await PeerFinder.FindAllPeersAsync();
-            List<PeerInformation> devices_list = devices.ToList();
+
             try
             {
-                PeerInformation peer = devices_list.Where(s => s.HostName.CanonicalName.Equals("(" + macaddress.ToUpper() + ")")).FirstOrDefault();
-                if (peer != null)
+                //cerca tutti i dispositivi pairati
+                PeerFinder.AlternateIdentities["Bluetooth:Paired"] = "";
+                var peers = await PeerFinder.FindAllPeersAsync();
+
+                //Rimuovo tutti i device dalla lista
+                PairedDeviceList.Clear();
                 {
-                    _Socket = new StreamSocket();
-                    await _Socket.ConnectAsync(peer.HostName, "1");
-                    //MessageBox.Show(AppResources.msgConnessioneAvvenuta);
-                    return true;
+                    foreach (var peer in peers)
+                    {
+                        PairedDeviceList.Add(new PairedDeviceInfo(peer));
+                    }
                 }
 
-                return false;
             }
-
-            catch (Exception ex)
+            catch (Exception e)
             {
-                switch ((uint)ex.HResult)
-                {
-                    case 0x8007048F:
-                        {
-                            //Bluetooth spento
-                            break;
-                        }
-                    case 0x80072750:
-                        {
-                            //Host Down
-                            break;
-                        }
-                    default:
-                        {
-
-                            //all the other
-                            break;
-                        }
-                }
-                close();
-                return false;
+                throw new BluetoothDeviceException("Error Retrive Paired Devices", e.InnerException);
             }
+
         }
 
 
+        #endregion
 
+    }
+    public class BTConnection : PairedDevice
+    {
         /// <summary>
-        /// Send data to the connected device
+        /// Send data to the connected device and wait for response
         /// </summary>
-        /// <param name="package"></param>
-        /// <param name="packet_lenght"></param>
+        /// <param name="package">Data to send to connected device</param>
+        /// <param name="packet_lenght">Response lenght to await</param>
         /// <returns></returns>
-        public async Task<byte[]> send_data(byte[] package, uint packet_lenght)
+        public async Task<byte[]> Send_Data(byte[] package, uint packet_lenght, string macaddress)
         {
             byte[] result_buff = new byte[packet_lenght];
             try
             {
-                if (_Socket != null)
+                if (_Socket!= null)
+                {
+                    await ConnectToDevice(macaddress);
+                }
+                else
                 {
                     var data = GetBufferFromByteArray(package);
                     //li sparo su buffer
@@ -154,7 +120,7 @@ namespace Bluetooth
             }
             catch (Exception ex)
             {
-                System.Diagnostics.Debug.WriteLine("errore: " + ex);
+                throw new BluetoothDeviceException("Error sending Data to connected Device", ex.InnerException);
             }
             return result_buff;
         }
@@ -172,6 +138,59 @@ namespace Bluetooth
                 return dw.DetachBuffer();
             }
         }
+
+        /// <summary>
+        /// Connect a Peer with specific macAddress
+        /// </summary>
+        /// <param name="macaddress"></param>
+        /// <returns></returns>
+        public async Task<bool> ConnectToDevice(string macaddress)
+        {
+            PeerFinder.AlternateIdentities["Bluetooth:Paired"] = "";
+            //cerca tutti i dispositivi pairati
+            var devices = await PeerFinder.FindAllPeersAsync();
+            List<PeerInformation> devices_list = devices.ToList();
+
+            try
+            {
+
+                PeerInformation peer = devices_list.Where(s => s.HostName.CanonicalName.Equals("(" + macaddress.ToUpper() + ")")).FirstOrDefault();
+                if (peer != null)
+                {
+                    _Socket = new StreamSocket();
+                    await _Socket.ConnectAsync(peer.HostName, "1");
+                    return true;
+                }
+
+                throw new BluetoothDeviceException("No device associated");
+            }
+
+
+            catch (Exception ex)
+            {
+                switch ((uint)ex.HResult)
+                {
+                    case 0x8007048F:
+                        {
+
+                            //Bluetooth spento
+                            throw new BluetoothDeviceException("Bluetooth Off", ex.InnerException);
+                        }
+                    case 0x80072750:
+                        {
+                            //Host Down
+                            throw new BluetoothDeviceException("Host Down", ex.InnerException);
+                        }
+                    default:
+                        {
+                            //all the other
+                            throw new BluetoothDeviceException("Generic Exception", ex.InnerException);
+                        }
+                }
+
+            }
+        }
+
 
         /// <summary>
         /// Attempt to close connection with socket
@@ -198,9 +217,8 @@ namespace Bluetooth
 
 
         }
-
-        #endregion
-
     }
-
 }
+    
+
+

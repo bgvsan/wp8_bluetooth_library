@@ -86,7 +86,6 @@
   <ItemGroup>
     <Compile Include="BluetoothManager.cs" />
     <Compile Include="PairedDevice.cs" />
-    <Compile Include="IBluetoothManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).$(TargetFrameworkVersion).Overrides.targets" />

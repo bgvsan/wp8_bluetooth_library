@@ -5,3 +5,15 @@ D:\Diego\libreria bluetooth wp8\Bluetooth\BluetoothTests\bin\Debug\BluetoothMana
 D:\Diego\libreria bluetooth wp8\Bluetooth\BluetoothTests\obj\Debug\BluetoothTests.csprojResolveAssemblyReference.cache
 D:\Diego\libreria bluetooth wp8\Bluetooth\BluetoothTests\obj\Debug\BluetoothTests.dll
 D:\Diego\libreria bluetooth wp8\Bluetooth\BluetoothTests\obj\Debug\BluetoothTests.pdb
+D:\Diego\libreria bluetooth wp8\Bluetooth\BluetoothTests\bin\Debug\Microsoft.Phone.dll
+D:\Diego\libreria bluetooth wp8\Bluetooth\BluetoothTests\bin\Debug\System.Net.dll
+D:\Diego\libreria bluetooth wp8\Bluetooth\BluetoothTests\bin\Debug\System.Windows.dll
+D:\Diego\libreria bluetooth wp8\Bluetooth\BluetoothTests\bin\Debug\System.Device.dll
+D:\Diego\libreria bluetooth wp8\Bluetooth\BluetoothTests\bin\Debug\System.Runtime.Serialization.dll
+D:\Diego\libreria bluetooth wp8\Bluetooth\BluetoothTests\bin\Debug\System.Xml.dll
+D:\Diego\libreria bluetooth wp8\Bluetooth\BluetoothTests\bin\Debug\Microsoft.Phone.xml
+D:\Diego\libreria bluetooth wp8\Bluetooth\BluetoothTests\bin\Debug\System.Net.xml
+D:\Diego\libreria bluetooth wp8\Bluetooth\BluetoothTests\bin\Debug\System.Windows.xml
+D:\Diego\libreria bluetooth wp8\Bluetooth\BluetoothTests\bin\Debug\System.Device.xml
+D:\Diego\libreria bluetooth wp8\Bluetooth\BluetoothTests\bin\Debug\System.Runtime.Serialization.xml
+D:\Diego\libreria bluetooth wp8\Bluetooth\BluetoothTests\bin\Debug\System.Xml.xml

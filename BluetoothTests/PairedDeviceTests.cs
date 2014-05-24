@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Windows.Networking.Proximity;
 
 using Bluetooth;
 
@@ -17,7 +16,6 @@ namespace Bluetooth.Tests
         public void AddTest_EmptyTest_Returns0()
         {
 
-            PairedDevice.Add(
             Assert.Fail();
         }
 

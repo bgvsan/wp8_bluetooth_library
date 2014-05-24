@@ -7,7 +7,7 @@
 
     <!--Risorse dell'applicazione-->
     <Application.Resources>
-        <local:LocalizedStrings xmlns:local="clr-namespace:TestApplication" x:Key="LocalizedStrings"/>
+        <!--<local:LocalizedStrings xmlns:local="clr-namespace:TestApplication" x:Key="LocalizedStrings"/>-->
     </Application.Resources>
 
     <Application.ApplicationLifetimeObjects>

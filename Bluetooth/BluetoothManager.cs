@@ -20,15 +20,45 @@ using System.Runtime.InteropServices.WindowsRuntime;
 
 namespace Bluetooth
 {
-    public abstract class BluetoothManager : IBluetoothManager
+    public  class  BluetoothManager
     {
-
-        public string DisplayName { get; set; }
-        public string HostName { get; set; }
-        public string ServiceName { get; set; }
-        public PeerInformation PeerInfo { get; set; }
-
-        public abstract void ShowBluetoothControlPanel();
+        ///<summary>
+        ///Show to window the bluethooth control to switch on bluetooth
+        ///</summary>
+        public static void ShowBluetoothControlPanel()
+        {
+            ConnectionSettingsTask connectionSettingTask = new ConnectionSettingsTask();
+            connectionSettingTask.ConnectionSettingsType = ConnectionSettingsType.Bluetooth;
+            connectionSettingTask.Show();
+        }
     }
 
-}
+    public class PairedDeviceInfo
+    {
+
+        internal PairedDeviceInfo(PeerInformation peerInformation)
+        {
+            this.PeerInfo = peerInformation;
+            this.DisplayName = this.PeerInfo.DisplayName;
+            this.HostName = this.PeerInfo.HostName.DisplayName;
+            this.ServiceName = this.PeerInfo.ServiceName;
+        }
+        public string DisplayName { get; private set; }
+        public string HostName { get; private set; }
+        public string ServiceName { get; private set; }
+        public PeerInformation PeerInfo { get; private set; } 
+    }
+
+    public class BluetoothDeviceException : Exception
+    {
+
+        public BluetoothDeviceException() : base() { }
+        public BluetoothDeviceException(string message) : base(message) { }
+        public BluetoothDeviceException(string message, System.Exception inner) : base(message, inner) { }
+
+       }
+      
+    }
+
+
+
