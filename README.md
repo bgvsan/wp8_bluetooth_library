@@ -12,14 +12,14 @@ If you have any specifical request or need info please refer to my email address
 
 IMPLEMENTED FUNCTION
 =====================
-'''C#
+```csharp
 -ConnectToDevice(string macAddress);
 
 -Send_Data(byte[] package, uint response_packet_lenght, string macAddress)
-'''
+```
 USAGE
 =====================
-'''C#
+```csharp
 private async void Send_Click(object sender, RoutedEventArgs e)
         {
             try
@@ -36,4 +36,4 @@ private async void Send_Click(object sender, RoutedEventArgs e)
 
         }
 
-'''
+```
