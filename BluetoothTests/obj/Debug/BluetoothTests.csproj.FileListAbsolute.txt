@@ -17,3 +17,41 @@ D:\Diego\libreria bluetooth wp8\Bluetooth\BluetoothTests\bin\Debug\System.Window
 D:\Diego\libreria bluetooth wp8\Bluetooth\BluetoothTests\bin\Debug\System.Device.xml
 D:\Diego\libreria bluetooth wp8\Bluetooth\BluetoothTests\bin\Debug\System.Runtime.Serialization.xml
 D:\Diego\libreria bluetooth wp8\Bluetooth\BluetoothTests\bin\Debug\System.Xml.xml
+\\vmware-host\Shared Folders\Dropbox\GitHub\wp8_bluetooth_library\BluetoothTests\bin\Debug\BluetoothTests.dll
+\\vmware-host\Shared Folders\Dropbox\GitHub\wp8_bluetooth_library\BluetoothTests\bin\Debug\BluetoothTests.pdb
+\\vmware-host\Shared Folders\Dropbox\GitHub\wp8_bluetooth_library\BluetoothTests\bin\Debug\BluetoothManager.dll
+\\vmware-host\Shared Folders\Dropbox\GitHub\wp8_bluetooth_library\BluetoothTests\bin\Debug\Microsoft.Phone.dll
+\\vmware-host\Shared Folders\Dropbox\GitHub\wp8_bluetooth_library\BluetoothTests\bin\Debug\System.Net.dll
+\\vmware-host\Shared Folders\Dropbox\GitHub\wp8_bluetooth_library\BluetoothTests\bin\Debug\System.Windows.dll
+\\vmware-host\Shared Folders\Dropbox\GitHub\wp8_bluetooth_library\BluetoothTests\bin\Debug\System.Device.dll
+\\vmware-host\Shared Folders\Dropbox\GitHub\wp8_bluetooth_library\BluetoothTests\bin\Debug\System.Runtime.Serialization.dll
+\\vmware-host\Shared Folders\Dropbox\GitHub\wp8_bluetooth_library\BluetoothTests\bin\Debug\System.Xml.dll
+\\vmware-host\Shared Folders\Dropbox\GitHub\wp8_bluetooth_library\BluetoothTests\bin\Debug\BluetoothManager.pdb
+\\vmware-host\Shared Folders\Dropbox\GitHub\wp8_bluetooth_library\BluetoothTests\bin\Debug\Microsoft.Phone.xml
+\\vmware-host\Shared Folders\Dropbox\GitHub\wp8_bluetooth_library\BluetoothTests\bin\Debug\System.Net.xml
+\\vmware-host\Shared Folders\Dropbox\GitHub\wp8_bluetooth_library\BluetoothTests\bin\Debug\System.Windows.xml
+\\vmware-host\Shared Folders\Dropbox\GitHub\wp8_bluetooth_library\BluetoothTests\bin\Debug\System.Device.xml
+\\vmware-host\Shared Folders\Dropbox\GitHub\wp8_bluetooth_library\BluetoothTests\bin\Debug\System.Runtime.Serialization.xml
+\\vmware-host\Shared Folders\Dropbox\GitHub\wp8_bluetooth_library\BluetoothTests\bin\Debug\System.Xml.xml
+\\vmware-host\Shared Folders\Dropbox\GitHub\wp8_bluetooth_library\BluetoothTests\obj\Debug\BluetoothTests.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\Dropbox\GitHub\wp8_bluetooth_library\BluetoothTests\obj\Debug\BluetoothTests.dll
+\\vmware-host\Shared Folders\Dropbox\GitHub\wp8_bluetooth_library\BluetoothTests\obj\Debug\BluetoothTests.pdb
+Z:\Dropbox\GitHub\wp8_bluetooth_library\BluetoothTests\bin\Debug\BluetoothTests.dll
+Z:\Dropbox\GitHub\wp8_bluetooth_library\BluetoothTests\bin\Debug\BluetoothTests.pdb
+Z:\Dropbox\GitHub\wp8_bluetooth_library\BluetoothTests\bin\Debug\BluetoothManager.dll
+Z:\Dropbox\GitHub\wp8_bluetooth_library\BluetoothTests\bin\Debug\Microsoft.Phone.dll
+Z:\Dropbox\GitHub\wp8_bluetooth_library\BluetoothTests\bin\Debug\System.Net.dll
+Z:\Dropbox\GitHub\wp8_bluetooth_library\BluetoothTests\bin\Debug\System.Windows.dll
+Z:\Dropbox\GitHub\wp8_bluetooth_library\BluetoothTests\bin\Debug\System.Device.dll
+Z:\Dropbox\GitHub\wp8_bluetooth_library\BluetoothTests\bin\Debug\System.Runtime.Serialization.dll
+Z:\Dropbox\GitHub\wp8_bluetooth_library\BluetoothTests\bin\Debug\System.Xml.dll
+Z:\Dropbox\GitHub\wp8_bluetooth_library\BluetoothTests\bin\Debug\BluetoothManager.pdb
+Z:\Dropbox\GitHub\wp8_bluetooth_library\BluetoothTests\bin\Debug\Microsoft.Phone.xml
+Z:\Dropbox\GitHub\wp8_bluetooth_library\BluetoothTests\bin\Debug\System.Net.xml
+Z:\Dropbox\GitHub\wp8_bluetooth_library\BluetoothTests\bin\Debug\System.Windows.xml
+Z:\Dropbox\GitHub\wp8_bluetooth_library\BluetoothTests\bin\Debug\System.Device.xml
+Z:\Dropbox\GitHub\wp8_bluetooth_library\BluetoothTests\bin\Debug\System.Runtime.Serialization.xml
+Z:\Dropbox\GitHub\wp8_bluetooth_library\BluetoothTests\bin\Debug\System.Xml.xml
+Z:\Dropbox\GitHub\wp8_bluetooth_library\BluetoothTests\obj\Debug\BluetoothTests.csprojResolveAssemblyReference.cache
+Z:\Dropbox\GitHub\wp8_bluetooth_library\BluetoothTests\obj\Debug\BluetoothTests.dll
+Z:\Dropbox\GitHub\wp8_bluetooth_library\BluetoothTests\obj\Debug\BluetoothTests.pdb

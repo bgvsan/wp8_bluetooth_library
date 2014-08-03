@@ -13,14 +13,14 @@ using Microsoft.Phone.Tasks;
 
 namespace Bluetooth
 {
-    public class PairedDevice  
+    public class PairedDevice
     {
         protected static StreamSocket _Socket;
         protected PairedDevice()
         { }
 
         protected static ObservableCollection<PairedDeviceInfo> _PairedDeviceList;
-       
+
         public static ObservableCollection<PairedDeviceInfo> PairedDeviceList
         {
             get
@@ -52,9 +52,9 @@ namespace Bluetooth
 
         #region Methods
 
-     
 
-        
+
+
 
         /// <summary>
         /// Update paired device list
@@ -103,24 +103,29 @@ namespace Bluetooth
             byte[] result_buff = new byte[packet_lenght];
             try
             {
-                if (_Socket!= null)
+                if (_Socket == null)
                 {
                     await ConnectToDevice(macaddress);
                 }
-                else
-                {
+                
+                
                     var data = GetBufferFromByteArray(package);
                     //li sparo su buffer
                     var temp = await _Socket.OutputStream.WriteAsync(data);
                     //controllo lo stream in ingresso
+                if (packet_lenght > 0)
+                {
                     var xx = await _Socket.InputStream.ReadAsync(package.AsBuffer(), packet_lenght, InputStreamOptions.None);
                     DataReader read = DataReader.FromBuffer(xx);
                     read.ReadBytes(result_buff);
                 }
+
+                   
+                
             }
-            catch (Exception ex)
+            catch (TaskCanceledException ex)
             {
-                throw new BluetoothDeviceException("Error sending Data to connected Device", ex.InnerException);
+                throw new BluetoothDeviceException("No response from connected device Task cancelled for timeout", ex.InnerException);
             }
             return result_buff;
         }
@@ -154,7 +159,7 @@ namespace Bluetooth
             try
             {
 
-                PeerInformation peer = devices_list.Where(s => s.HostName.CanonicalName.Equals("(" + macaddress.ToUpper() + ")")).FirstOrDefault();
+                PeerInformation peer = devices_list.Where(s => s.HostName.CanonicalName.Replace(":", "").Replace("(", "").Replace(")", "").Equals(macaddress.ToUpper())).FirstOrDefault();
                 if (peer != null)
                 {
                     _Socket = new StreamSocket();
@@ -180,6 +185,12 @@ namespace Bluetooth
                         {
                             //Host Down
                             throw new BluetoothDeviceException("Host Down", ex.InnerException);
+                        }
+
+                    case 0x8007271D:
+                        {
+                            //ID caption or generic permission problem
+                            throw new BluetoothDeviceException("An attempt was made to access a socket in a way forbidden by its access permissions check ID_CAPTION ", ex.InnerException);
                         }
                     default:
                         {

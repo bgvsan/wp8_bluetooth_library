@@ -1,13 +1,13 @@
-﻿<xapCache source="D:\Diego\libreria bluetooth wp8\Bluetooth\TestApplication\Bin\Debug\TestApplication_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="23/05/2014 15.40.48">
-  <file source="D:\Diego\libreria bluetooth wp8\Bluetooth\TestApplication\obj\Debug\TestApplication.dll" archivePath="TestApplication.dll" lastWriteTime="23/05/2014 15.40.48" />
-  <file source="D:\Diego\libreria bluetooth wp8\Bluetooth\TestApplication\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="19/05/2014 15.45.46" />
-  <file source="D:\Diego\libreria bluetooth wp8\Bluetooth\TestApplication\Assets\Tiles\FlipCycleTileLarge.png" archivePath="Assets\Tiles\FlipCycleTileLarge.png" lastWriteTime="19/05/2014 15.45.46" />
-  <file source="D:\Diego\libreria bluetooth wp8\Bluetooth\TestApplication\Assets\Tiles\FlipCycleTileSmall.png" archivePath="Assets\Tiles\FlipCycleTileSmall.png" lastWriteTime="19/05/2014 15.45.46" />
-  <file source="D:\Diego\libreria bluetooth wp8\Bluetooth\TestApplication\Assets\Tiles\IconicTileMediumLarge.png" archivePath="Assets\Tiles\IconicTileMediumLarge.png" lastWriteTime="19/05/2014 15.45.46" />
-  <file source="D:\Diego\libreria bluetooth wp8\Bluetooth\TestApplication\Assets\Tiles\IconicTileSmall.png" archivePath="Assets\Tiles\IconicTileSmall.png" lastWriteTime="19/05/2014 15.45.46" />
-  <file source="D:\Diego\libreria bluetooth wp8\Bluetooth\TestApplication\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="23/05/2014 15.40.48" />
-  <file source="D:\Diego\libreria bluetooth wp8\Bluetooth\TestApplication\Bin\Debug\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="19/05/2014 15.45.46" />
-  <file source="D:\Diego\libreria bluetooth wp8\Bluetooth\TestApplication\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="19/05/2014 15.45.46" />
-  <file source="D:\Diego\libreria bluetooth wp8\Bluetooth\Bluetooth\Bin\Debug\BluetoothManager.dll" archivePath="BluetoothManager.dll" lastWriteTime="23/05/2014 15.40.43" />
-  <file source="D:\Diego\libreria bluetooth wp8\Bluetooth\TestApplication\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="23/05/2014 15.40.48" />
+﻿<xapCache source="Z:\Dropbox\GitHub\wp8_bluetooth_library\TestApplication\Bin\Debug\TestApplication_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="02/08/2014 02:38:45">
+  <file source="Z:\Dropbox\GitHub\wp8_bluetooth_library\TestApplication\obj\Debug\TestApplication.dll" archivePath="TestApplication.dll" lastWriteTime="02/08/2014 02:38:42" />
+  <file source="Z:\Dropbox\GitHub\wp8_bluetooth_library\TestApplication\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="19/05/2014 15:45:48" />
+  <file source="Z:\Dropbox\GitHub\wp8_bluetooth_library\TestApplication\Assets\Tiles\FlipCycleTileLarge.png" archivePath="Assets\Tiles\FlipCycleTileLarge.png" lastWriteTime="19/05/2014 15:45:48" />
+  <file source="Z:\Dropbox\GitHub\wp8_bluetooth_library\TestApplication\Assets\Tiles\FlipCycleTileSmall.png" archivePath="Assets\Tiles\FlipCycleTileSmall.png" lastWriteTime="19/05/2014 15:45:48" />
+  <file source="Z:\Dropbox\GitHub\wp8_bluetooth_library\TestApplication\Assets\Tiles\IconicTileMediumLarge.png" archivePath="Assets\Tiles\IconicTileMediumLarge.png" lastWriteTime="19/05/2014 15:45:48" />
+  <file source="Z:\Dropbox\GitHub\wp8_bluetooth_library\TestApplication\Assets\Tiles\IconicTileSmall.png" archivePath="Assets\Tiles\IconicTileSmall.png" lastWriteTime="19/05/2014 15:45:48" />
+  <file source="Z:\Dropbox\GitHub\wp8_bluetooth_library\TestApplication\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="02/08/2014 02:38:44" />
+  <file source="Z:\Dropbox\GitHub\wp8_bluetooth_library\TestApplication\Bin\Debug\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="19/05/2014 15:45:48" />
+  <file source="Z:\Dropbox\GitHub\wp8_bluetooth_library\TestApplication\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="19/05/2014 15:45:48" />
+  <file source="Z:\Dropbox\GitHub\wp8_bluetooth_library\Bluetooth\Bin\Debug\BluetoothManager.dll" archivePath="BluetoothManager.dll" lastWriteTime="02/08/2014 02:38:23" />
+  <file source="Z:\Dropbox\GitHub\wp8_bluetooth_library\TestApplication\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="02/08/2014 02:38:44" />
 </xapCache>

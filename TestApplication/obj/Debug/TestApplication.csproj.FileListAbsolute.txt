@@ -20,3 +20,46 @@ D:\Diego\libreria bluetooth wp8\Bluetooth\TestApplication\obj\Debug\XapCacheFile
 D:\Diego\libreria bluetooth wp8\Bluetooth\TestApplication\Bin\Debug\BluetoothManager.dll
 D:\Diego\libreria bluetooth wp8\Bluetooth\TestApplication\Bin\Debug\BluetoothManager.pdb
 D:\Diego\libreria bluetooth wp8\Bluetooth\TestApplication\obj\Debug\TestApplication.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\Dropbox\GitHub\wp8_bluetooth_library\TestApplication\Bin\Debug\Assets\ApplicationIcon.png
+\\vmware-host\Shared Folders\Dropbox\GitHub\wp8_bluetooth_library\TestApplication\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+\\vmware-host\Shared Folders\Dropbox\GitHub\wp8_bluetooth_library\TestApplication\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+\\vmware-host\Shared Folders\Dropbox\GitHub\wp8_bluetooth_library\TestApplication\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+\\vmware-host\Shared Folders\Dropbox\GitHub\wp8_bluetooth_library\TestApplication\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+\\vmware-host\Shared Folders\Dropbox\GitHub\wp8_bluetooth_library\TestApplication\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+\\vmware-host\Shared Folders\Dropbox\GitHub\wp8_bluetooth_library\TestApplication\Bin\Debug\TestApplication.dll
+\\vmware-host\Shared Folders\Dropbox\GitHub\wp8_bluetooth_library\TestApplication\Bin\Debug\TestApplication.pdb
+\\vmware-host\Shared Folders\Dropbox\GitHub\wp8_bluetooth_library\TestApplication\Bin\Debug\AppManifest.xaml
+\\vmware-host\Shared Folders\Dropbox\GitHub\wp8_bluetooth_library\TestApplication\Bin\Debug\Properties\WMAppManifest.xml
+\\vmware-host\Shared Folders\Dropbox\GitHub\wp8_bluetooth_library\TestApplication\Bin\Debug\TestApplication_Debug_AnyCPU.xap
+\\vmware-host\Shared Folders\Dropbox\GitHub\wp8_bluetooth_library\TestApplication\Bin\Debug\BluetoothManager.dll
+\\vmware-host\Shared Folders\Dropbox\GitHub\wp8_bluetooth_library\TestApplication\Bin\Debug\BluetoothManager.pdb
+\\vmware-host\Shared Folders\Dropbox\GitHub\wp8_bluetooth_library\TestApplication\obj\Debug\TestApplication.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\Dropbox\GitHub\wp8_bluetooth_library\TestApplication\obj\Debug\App.g.cs
+\\vmware-host\Shared Folders\Dropbox\GitHub\wp8_bluetooth_library\TestApplication\obj\Debug\MainPage.g.cs
+\\vmware-host\Shared Folders\Dropbox\GitHub\wp8_bluetooth_library\TestApplication\obj\Debug\TestApplication.g.resources
+\\vmware-host\Shared Folders\Dropbox\GitHub\wp8_bluetooth_library\TestApplication\obj\Debug\TestApplication.Resources.AppResources.resources
+\\vmware-host\Shared Folders\Dropbox\GitHub\wp8_bluetooth_library\TestApplication\obj\Debug\TestApplication.csproj.GenerateResource.Cache
+\\vmware-host\Shared Folders\Dropbox\GitHub\wp8_bluetooth_library\TestApplication\obj\Debug\TestApplication.dll
+\\vmware-host\Shared Folders\Dropbox\GitHub\wp8_bluetooth_library\TestApplication\obj\Debug\TestApplication.pdb
+\\vmware-host\Shared Folders\Dropbox\GitHub\wp8_bluetooth_library\TestApplication\obj\Debug\XapCacheFile.xml
+Z:\Dropbox\GitHub\wp8_bluetooth_library\TestApplication\Bin\Debug\Assets\ApplicationIcon.png
+Z:\Dropbox\GitHub\wp8_bluetooth_library\TestApplication\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+Z:\Dropbox\GitHub\wp8_bluetooth_library\TestApplication\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+Z:\Dropbox\GitHub\wp8_bluetooth_library\TestApplication\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+Z:\Dropbox\GitHub\wp8_bluetooth_library\TestApplication\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+Z:\Dropbox\GitHub\wp8_bluetooth_library\TestApplication\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+Z:\Dropbox\GitHub\wp8_bluetooth_library\TestApplication\Bin\Debug\TestApplication.dll
+Z:\Dropbox\GitHub\wp8_bluetooth_library\TestApplication\Bin\Debug\TestApplication.pdb
+Z:\Dropbox\GitHub\wp8_bluetooth_library\TestApplication\Bin\Debug\AppManifest.xaml
+Z:\Dropbox\GitHub\wp8_bluetooth_library\TestApplication\Bin\Debug\Properties\WMAppManifest.xml
+Z:\Dropbox\GitHub\wp8_bluetooth_library\TestApplication\Bin\Debug\TestApplication_Debug_AnyCPU.xap
+Z:\Dropbox\GitHub\wp8_bluetooth_library\TestApplication\Bin\Debug\BluetoothManager.dll
+Z:\Dropbox\GitHub\wp8_bluetooth_library\TestApplication\Bin\Debug\BluetoothManager.pdb
+Z:\Dropbox\GitHub\wp8_bluetooth_library\TestApplication\obj\Debug\App.g.cs
+Z:\Dropbox\GitHub\wp8_bluetooth_library\TestApplication\obj\Debug\MainPage.g.cs
+Z:\Dropbox\GitHub\wp8_bluetooth_library\TestApplication\obj\Debug\TestApplication.g.resources
+Z:\Dropbox\GitHub\wp8_bluetooth_library\TestApplication\obj\Debug\TestApplication.Resources.AppResources.resources
+Z:\Dropbox\GitHub\wp8_bluetooth_library\TestApplication\obj\Debug\TestApplication.csproj.GenerateResource.Cache
+Z:\Dropbox\GitHub\wp8_bluetooth_library\TestApplication\obj\Debug\TestApplication.dll
+Z:\Dropbox\GitHub\wp8_bluetooth_library\TestApplication\obj\Debug\TestApplication.pdb
+Z:\Dropbox\GitHub\wp8_bluetooth_library\TestApplication\obj\Debug\XapCacheFile.xml

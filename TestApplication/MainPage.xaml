@@ -20,11 +20,11 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         <StackPanel Grid.Row="1" Margin="10,10,10,10">
-            <TextBlock x:Name="txtblkAddress" Text="MAC Address" Foreground="White"></TextBlock>
-            <TextBox></TextBox>
+            <TextBlock  Text="MAC Address" Foreground="White"></TextBlock>
+            <TextBox x:Name="txtblkAddress"  Text="001208092929"></TextBox>
 
-            <TextBlock x:Name="txtblkSend" Text="Input" Foreground="White"></TextBlock>
-            <TextBox></TextBox>
+            <TextBlock  Text="Input" Foreground="Black"></TextBlock>
+            <TextBox x:Name="txtblkSend"></TextBox>
             <Button x:Name="Connect" Height="100" Content="Send" Click="Connect_Click"></Button>
             <Button x:Name="Send" Height="100" Content="Send" Click="Send_Click"></Button>
         </StackPanel>

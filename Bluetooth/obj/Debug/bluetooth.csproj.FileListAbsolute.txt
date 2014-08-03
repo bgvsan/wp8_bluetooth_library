@@ -8,3 +8,15 @@ D:\Diego\libreria bluetooth wp8\Bluetooth\Bluetooth\obj\Debug\BluetoothManager.d
 D:\Diego\libreria bluetooth wp8\Bluetooth\Bluetooth\obj\Debug\BluetoothManager.pdb
 D:\Diego\libreria bluetooth wp8\Bluetooth\Bluetooth\Bin\Debug\BluetoothManager.dll.CodeAnalysisLog.xml
 D:\Diego\libreria bluetooth wp8\Bluetooth\Bluetooth\Bin\Debug\BluetoothManager.dll.lastcodeanalysissucceeded
+\\vmware-host\Shared Folders\Dropbox\GitHub\wp8_bluetooth_library\Bluetooth\Bin\Debug\BluetoothManager.dll
+\\vmware-host\Shared Folders\Dropbox\GitHub\wp8_bluetooth_library\Bluetooth\Bin\Debug\BluetoothManager.pdb
+\\vmware-host\Shared Folders\Dropbox\GitHub\wp8_bluetooth_library\Bluetooth\Bin\Debug\BluetoothManager.dll.CodeAnalysisLog.xml
+\\vmware-host\Shared Folders\Dropbox\GitHub\wp8_bluetooth_library\Bluetooth\Bin\Debug\BluetoothManager.dll.lastcodeanalysissucceeded
+\\vmware-host\Shared Folders\Dropbox\GitHub\wp8_bluetooth_library\Bluetooth\obj\Debug\BluetoothManager.dll
+\\vmware-host\Shared Folders\Dropbox\GitHub\wp8_bluetooth_library\Bluetooth\obj\Debug\BluetoothManager.pdb
+Z:\Dropbox\GitHub\wp8_bluetooth_library\Bluetooth\Bin\Debug\BluetoothManager.dll
+Z:\Dropbox\GitHub\wp8_bluetooth_library\Bluetooth\Bin\Debug\BluetoothManager.pdb
+Z:\Dropbox\GitHub\wp8_bluetooth_library\Bluetooth\Bin\Debug\BluetoothManager.dll.CodeAnalysisLog.xml
+Z:\Dropbox\GitHub\wp8_bluetooth_library\Bluetooth\Bin\Debug\BluetoothManager.dll.lastcodeanalysissucceeded
+Z:\Dropbox\GitHub\wp8_bluetooth_library\Bluetooth\obj\Debug\BluetoothManager.dll
+Z:\Dropbox\GitHub\wp8_bluetooth_library\Bluetooth\obj\Debug\BluetoothManager.pdb
