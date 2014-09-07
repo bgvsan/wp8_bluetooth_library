@@ -7,7 +7,7 @@ wp8_bluetooth_library has a GPL license.
 This is a complete project that all can contribute, or can be used as is!
 If you have any specifical request or need info please refer to my email address santinelli.diego[at]gmail.com.
 
-![Alt HC-06 Module](/bgvsan/wp8_bluetooth_library/bluetooth-HC05-01.jpg?raw=true "HC-06 Module")
+![Alt HC-06 Module](/wp8_bluetooth_library/bluetooth-HC05-01.jpg?raw=true "HC-06 Module")
 
 IMPLEMENTED FUNCTION
 =====================
@@ -23,7 +23,7 @@ USAGE
 
 Connect to a device & send data (You need the mac address)
 
-
+```csharp
 private async void Send_Click(object sender, RoutedEventArgs e)
         {
             try
@@ -42,6 +42,7 @@ private async void Send_Click(object sender, RoutedEventArgs e)
 ```
 
 Send data and receive response from bluetooth module
+
 ```csharp
 	await btpd.Send_Data((Byte[]])data_to_send, (int)response_lenght, (string)macAddress);
 ```
