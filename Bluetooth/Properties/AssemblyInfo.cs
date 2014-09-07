@@ -7,7 +7,7 @@ using System.Resources;
 // set di attributi. Modificare i valori di questi attributi per modificare le informazioni
 // associate a un assembly.
 [assembly: AssemblyTitle("bluetooth")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("A bluetooth Manager")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("bluetooth")]
@@ -32,6 +32,6 @@ using System.Resources;
 //
 // È possibile specificare tutti i valori oppure impostare valori predefiniti per i numeri relativi alla revisione e alla build 
 // utilizzando l'asterisco (*) come illustrato di seguito:
-[assembly: AssemblyVersion("1.0.0.2")]
-[assembly: AssemblyFileVersion("1.0.0.2")]
+[assembly: AssemblyVersion("1.0.0.3")]
+[assembly: AssemblyFileVersion("1.0.0.3")]
 [assembly: NeutralResourcesLanguageAttribute("it-IT")]

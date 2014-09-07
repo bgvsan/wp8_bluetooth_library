@@ -153,11 +153,12 @@ namespace Bluetooth
         {
             PeerFinder.AlternateIdentities["Bluetooth:Paired"] = "";
             //cerca tutti i dispositivi pairati
-            var devices = await PeerFinder.FindAllPeersAsync();
-            List<PeerInformation> devices_list = devices.ToList();
+            List<PeerInformation> devices_list;
 
             try
             {
+                var devices = await PeerFinder.FindAllPeersAsync();
+                devices_list = devices.ToList();
 
                 PeerInformation peer = devices_list.Where(s => s.HostName.CanonicalName.Replace(":", "").Replace("(", "").Replace(")", "").Equals(macaddress.ToUpper())).FirstOrDefault();
                 if (peer != null)

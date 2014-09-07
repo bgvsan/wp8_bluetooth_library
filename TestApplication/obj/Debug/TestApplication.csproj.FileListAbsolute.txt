@@ -32,7 +32,6 @@ D:\Diego\libreria bluetooth wp8\Bluetooth\TestApplication\obj\Debug\TestApplicat
 \\vmware-host\Shared Folders\Dropbox\GitHub\wp8_bluetooth_library\TestApplication\Bin\Debug\Properties\WMAppManifest.xml
 \\vmware-host\Shared Folders\Dropbox\GitHub\wp8_bluetooth_library\TestApplication\Bin\Debug\TestApplication_Debug_AnyCPU.xap
 \\vmware-host\Shared Folders\Dropbox\GitHub\wp8_bluetooth_library\TestApplication\Bin\Debug\BluetoothManager.dll
-\\vmware-host\Shared Folders\Dropbox\GitHub\wp8_bluetooth_library\TestApplication\Bin\Debug\BluetoothManager.pdb
 \\vmware-host\Shared Folders\Dropbox\GitHub\wp8_bluetooth_library\TestApplication\obj\Debug\TestApplication.csprojResolveAssemblyReference.cache
 \\vmware-host\Shared Folders\Dropbox\GitHub\wp8_bluetooth_library\TestApplication\obj\Debug\App.g.cs
 \\vmware-host\Shared Folders\Dropbox\GitHub\wp8_bluetooth_library\TestApplication\obj\Debug\MainPage.g.cs
@@ -54,7 +53,6 @@ Z:\Dropbox\GitHub\wp8_bluetooth_library\TestApplication\Bin\Debug\AppManifest.xa
 Z:\Dropbox\GitHub\wp8_bluetooth_library\TestApplication\Bin\Debug\Properties\WMAppManifest.xml
 Z:\Dropbox\GitHub\wp8_bluetooth_library\TestApplication\Bin\Debug\TestApplication_Debug_AnyCPU.xap
 Z:\Dropbox\GitHub\wp8_bluetooth_library\TestApplication\Bin\Debug\BluetoothManager.dll
-Z:\Dropbox\GitHub\wp8_bluetooth_library\TestApplication\Bin\Debug\BluetoothManager.pdb
 Z:\Dropbox\GitHub\wp8_bluetooth_library\TestApplication\obj\Debug\App.g.cs
 Z:\Dropbox\GitHub\wp8_bluetooth_library\TestApplication\obj\Debug\MainPage.g.cs
 Z:\Dropbox\GitHub\wp8_bluetooth_library\TestApplication\obj\Debug\TestApplication.g.resources
@@ -63,3 +61,5 @@ Z:\Dropbox\GitHub\wp8_bluetooth_library\TestApplication\obj\Debug\TestApplicatio
 Z:\Dropbox\GitHub\wp8_bluetooth_library\TestApplication\obj\Debug\TestApplication.dll
 Z:\Dropbox\GitHub\wp8_bluetooth_library\TestApplication\obj\Debug\TestApplication.pdb
 Z:\Dropbox\GitHub\wp8_bluetooth_library\TestApplication\obj\Debug\XapCacheFile.xml
+\\vmware-host\Shared Folders\Dropbox\GitHub\wp8_bluetooth_library\TestApplication\Bin\Debug\BluetoothManager.xml
+\\vmware-host\Shared Folders\Dropbox\GitHub\wp8_bluetooth_library\TestApplication\Bin\Debug\BluetoothManager.pdb
