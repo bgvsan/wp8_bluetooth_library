@@ -42,5 +42,44 @@ private async void Send_Click(object sender, RoutedEventArgs e)
                 MessageBox.Show(ex.Message.ToString());
             }
 
-        }
+        }     
+```
+
+
+EXCEPTION
+=====================
+Always use a try & catch between the connection
+
+Open panel tho switch on bluetooth
+```csharp
+
+BluetoothDeviceException("Bluetooth Off",ex.InnerException);
+
+```
+
+No device found "pair first the bluetooth device""
+```csharp
+
+ BluetoothDeviceException("No device associated")
+ ```  
+
+No response from device 
+```csharp
+
+BluetoothDeviceException("Host Down", ex.InnerException);
+
+```                      
+
+Check ID_CAPTION permission to your project
+```csharp
+
+BluetoothDeviceException("An attempt was made to access a socket in a way forbidden by its access permissions check ID_CAPTION ", ex.InnerException);
+
+```
+
+Generic exception check to msdn
+```csharp
+
+BluetoothDeviceException("Generic Exception", ex.InnerException);
+
 ```
