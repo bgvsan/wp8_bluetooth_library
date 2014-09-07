@@ -7,7 +7,7 @@ wp8_bluetooth_library has a GPL license.
 This is a complete project that all can contribute, or can be used as is!
 If you have any specifical request or need info please refer to my email address santinelli.diego[at]gmail.com.
 
-![Alt HC-06 Module](https://www.github.com/bgvsan/wp8_bluetooth_library/bluetooth-HC05-01.jpg "HC-06 Module")
+![Alt HC-06 Module](/bgvsan/wp8_bluetooth_library/bluetooth-HC05-01.jpg?raw=true "HC-06 Module")
 
 IMPLEMENTED FUNCTION
 =====================
