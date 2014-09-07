@@ -21,13 +21,9 @@ IMPLEMENTED FUNCTION
 USAGE
 =====================
 
-Connect to a device (You need the mac address)
+Connect to a device & send data (You need the mac address)
 
-```csharp
 
-```
-
-```csharp
 private async void Send_Click(object sender, RoutedEventArgs e)
         {
             try
@@ -45,6 +41,12 @@ private async void Send_Click(object sender, RoutedEventArgs e)
         }     
 ```
 
+Send data and receive response from bluetooth module
+```csharp
+	await btpd.Send_Data((Byte[]])data_to_send, (int)response_lenght, (string)macAddress);
+```
+
+mac Address format string : XXXXXXXXXXXX
 
 EXCEPTION
 =====================
@@ -52,34 +54,25 @@ Always use a try & catch between the connection
 
 Open panel tho switch on bluetooth
 ```csharp
-
 BluetoothDeviceException("Bluetooth Off",ex.InnerException);
-
 ```
 
 No device found "pair first the bluetooth device""
 ```csharp
-
  BluetoothDeviceException("No device associated")
  ```  
 
 No response from device 
 ```csharp
-
 BluetoothDeviceException("Host Down", ex.InnerException);
-
 ```                      
 
 Check ID_CAPTION permission to your project
 ```csharp
-
 BluetoothDeviceException("An attempt was made to access a socket in a way forbidden by its access permissions check ID_CAPTION ", ex.InnerException);
-
 ```
 
 Generic exception check to msdn
 ```csharp
-
 BluetoothDeviceException("Generic Exception", ex.InnerException);
-
 ```
